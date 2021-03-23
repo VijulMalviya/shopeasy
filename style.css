@@ -8,8 +8,9 @@ a{
     text-decoration: none;
 }
 .nav{
+
     height: 100vh;
-    position: absolute;
+    position: fixed;
     z-index: 99;
     font-weight: bold;
     display: flex;

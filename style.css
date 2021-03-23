@@ -232,5 +232,12 @@ nav{
     align-items: center;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #ADCA0A;
+    background-color: #ffffff;
+}
+.accordion-button{
+    border: none;
+}
 
 

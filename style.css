@@ -71,6 +71,13 @@ nav{
     -ms-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
 }
+.button a{
+    color: #ADCA0A;
+}
+button a:hover{
+    color: white;
+}
+
 .button:hover{
     /* background-image: linear-gradient(to right, #ADCA0A , #3E5707); */
     background-color: #ADCA0A;
@@ -92,6 +99,12 @@ nav{
 .button2:hover{
     color:#ADCA0A;
     background-color: #fff;
+}
+.button2 a{
+    color: white;
+}
+.button2 a:hover{
+    color: #ADCA0A;
 }
 .home-bg{
     overflow: hidden;

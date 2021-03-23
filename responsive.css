@@ -1,0 +1,68 @@
+@import "style.css";
+
+
+
+@media only screen and (max-width:767.98px){
+.home-bg{
+    height: 86vh;
+}
+.home-text-content .tittle{
+    font-weight: bold;
+    color: #3E5707;
+    font-size: 3rem;
+}
+.home-text-content h3{
+    margin-top: 10rem;
+    font-weight: bold;
+    color: #3E5707;
+}
+.home-text-content .cashback{
+    color: #ADCA0A;
+    font-size: 3rem;
+    -webkit-text-stroke-width: 1px;
+} 
+.home-bottom{
+    height: 7vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-icon{
+    display: none;
+}
+.shopping-bg img,.about-bg img{
+    height: 20vh;
+}
+.card img{
+    margin-top: 2rem;
+    width: 15vw;
+    height: 8vh;
+}
+.calldetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 15vh;
+}
+
+}
+
+@media only screen and (max-width:1024px){
+
+    .shopping-bg img,.about-bg img{
+        height: 50vh;
+    }
+    .card img{
+        margin-top: 2rem;
+        width: 10vw;
+        height: 7vh;
+    }
+    .card{
+        height: 15vh;
+    }
+
+}

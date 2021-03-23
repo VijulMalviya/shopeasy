@@ -7,10 +7,44 @@
 a{
     text-decoration: none;
 }
+.nav{
+    height: 100vh;
+    position: absolute;
+    z-index: 99;
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282A29;
+    margin-left: -50%;
+    
+}
+.nav a{
+    display: block;
+    color:  #AFAFAF ; 
+}
+.nav a:hover{
+    color: #ADCA0A;
+}
+.nav i{
+    color: #ADCA0A;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-20%,-90%);
+    -webkit-transform: translate(-20%,-90%);
+    -moz-transform: translate(-20%,-90%);
+    -ms-transform: translate(-20%,-90%);
+    -o-transform: translate(-20%,-90%);
+    cursor: pointer;
+    font-size: 2rem;
+}
 nav{
     position: fixed;
     background-color: #fff;
     z-index: 9;
+    
 }
 .menu-icon{
     cursor: pointer;

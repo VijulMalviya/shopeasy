@@ -52,6 +52,9 @@
     font-size: small;
     line-height: 20px;
 }
+.ad img{
+    height: 20vh;
+}
 
 
 }
@@ -73,6 +76,11 @@
         font-size: small;
         line-height: 20px;
     }
+    .ad img{
+        height: 30vh;
+    
+    }
+    
     
 
 }

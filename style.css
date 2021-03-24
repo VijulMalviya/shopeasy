@@ -261,8 +261,40 @@ button:hover a{
     padding-left: 1rem;
     color: #A2A7AD;
 }
+.saver{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.ad img{
+    height: 50vh;
+
+}
 
 
+.product  h5 p{
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+    font-size:1rem;
+}
+.product h5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.product img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product p{
+    margin: 0;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 
 
 

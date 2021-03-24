@@ -252,9 +252,17 @@ button:hover a{
 .accordion-button{
     border: none;
 }
-
-.about-text p , .about-text ul li{
-    font-size: small;
-    line-height: 20px;
+.membership form textarea,.membership form input{
+    border: 1px solid rgb(211, 210, 210);
 }
+.membership form textarea::placeholder,.membership form input::placeholder{
+    font-size: small;
+    font-weight: bold;
+    padding-left: 1rem;
+    color: #A2A7AD;
+}
+
+
+
+
 

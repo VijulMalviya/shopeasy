@@ -48,6 +48,11 @@
 .card{
     height: 15vh;
 }
+.about-text p , .about-text ul li{
+    font-size: small;
+    line-height: 20px;
+}
+
 
 }
 
@@ -64,5 +69,10 @@
     .card{
         height: 15vh;
     }
+    .about-text p , .about-text ul li{
+        font-size: small;
+        line-height: 20px;
+    }
+    
 
 }

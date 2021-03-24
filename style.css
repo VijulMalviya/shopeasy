@@ -74,7 +74,7 @@ nav{
 .button a{
     color: #ADCA0A;
 }
-button a:hover{
+button:hover a{
     color: white;
 }
 
@@ -103,7 +103,7 @@ button a:hover{
 .button2 a{
     color: white;
 }
-.button2 a:hover{
+.button2:hover a{
     color: #ADCA0A;
 }
 .home-bg{
@@ -253,4 +253,8 @@ button a:hover{
     border: none;
 }
 
+.about-text p , .about-text ul li{
+    font-size: small;
+    line-height: 20px;
+}
 

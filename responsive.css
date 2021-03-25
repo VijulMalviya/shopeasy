@@ -1,86 +1,169 @@
 @import "style.css";
 
+/* product image gallery */
 
+.container {
+  position: relative;
+}
 
-@media only screen and (max-width:767.98px){
-.home-bg{
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* for small device */
+
+@media only screen and (max-width: 767.98px) {
+  .home-bg {
     height: 86vh;
-}
-.home-text-content .tittle{
+  }
+  .home-text-content .tittle {
     font-weight: bold;
-    color: #3E5707;
+    color: #3e5707;
     font-size: 3rem;
-}
-.home-text-content h3{
+  }
+  .home-text-content h3 {
     margin-top: 10rem;
     font-weight: bold;
-    color: #3E5707;
-}
-.home-text-content .cashback{
-    color: #ADCA0A;
+    color: #3e5707;
+  }
+  .home-text-content .cashback {
+    color: #adca0a;
     font-size: 3rem;
     -webkit-text-stroke-width: 1px;
-} 
-.home-bottom{
+  }
+  .home-bottom {
     height: 7vh;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.menu-icon{
+  }
+  .menu-icon {
     display: none;
-}
-.shopping-bg img,.about-bg img{
+  }
+  .shopping-bg img,
+  .about-bg img {
     height: 20vh;
-}
-.card img{
+  }
+  .card img {
     margin-top: 2rem;
     width: 15vw;
     height: 8vh;
-}
-.calldetails{
+  }
+  .calldetails {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.card{
+  }
+  .card {
     height: 15vh;
-}
-.about-text p , .about-text ul li{
+  }
+  .about-text p,
+  .about-text ul li {
     font-size: small;
     line-height: 20px;
-}
-.ad img{
+  }
+  .ad img {
     height: 20vh;
+  }
 }
 
+/* for ipad or tablets */
 
-}
-
-@media only screen and (max-width:1024px){
-
-    .shopping-bg img,.about-bg img{
-        height: 50vh;
-    }
-    .card img{
-        margin-top: 2rem;
-        width: 10vw;
-        height: 7vh;
-    }
-    .card{
-        height: 15vh;
-    }
-    .about-text p , .about-text ul li{
-        font-size: small;
-        line-height: 20px;
-    }
-    .ad img{
-        height: 30vh;
-    
-    }
-    
-    
-
+@media only screen and (max-width: 1024px) {
+  .shopping-bg img,
+  .about-bg img {
+    height: 50vh;
+  }
+  .card img {
+    margin-top: 2rem;
+    width: 10vw;
+    height: 7vh;
+  }
+  .card {
+    height: 15vh;
+  }
+  .about-text p,
+  .about-text ul li {
+    font-size: small;
+    line-height: 20px;
+  }
+  .ad img {
+    height: 30vh;
+  }
 }

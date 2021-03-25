@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- font Awesome     -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS     -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="responsive.css">    
+</head>
+
+<body>
+<!-- navigation sidebar -->
+    <div class="row">
+        <div class="col-6 nav " id="nav">
+            <i class="fa fa-times" id="cross"></i>
+
+            <p class=" text-center p-2"> <a href="./unknown.html"> Download App</a></p>
+            <p class=" text-center p-2"> <a href="./membership.html"> Membership</a></p>
+            <p class=" text-center p-2"> <a
+                    href="https://api.whatsapp.com/send?phone=919876543210&amp;text=Hi there! I have an Order :)">
+                    Shop on Whatsapp</a></p>
+            <p class=" text-center p-2"> <a href="./benefits.html"> Benefits of Membership</a></p>
+            <p class=" text-center p-2"> <a href="./contact.html"> Contact Us</a></p>
+        </div>
+    </div>
+
+
+<!-- navigation -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-12">
+                <div class="container">
+                    <div class="row p-4">
+                        <div class="col-md-2 col-12 menu-icon">
+                            <img src="./images/menu.png" alt="menu-icon" id="menu" loading="lazy"
+                                class=" p-2 img-fluid">
+                        </div>
+                        <div class="col-md-10 col-12  btn-section">
+                            <button class="button btn_1 col-lg-2 col-md-4 col-6 p-2 "> <a href="./index.html">
+                                    HOME</a></button>
+                            <button class="button btn_2 col-lg-2 col-md-4 col-6 p-2 "> <a href="./shoponline.html"> <i
+                                        class="fa fa-cart-plus"></i> BASKET
+                                </a></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+<!-- product details-start -->
+    <div class="container">
+        <div class="row mb-5">
+            <img src="./images/white.png" alt="shopping-lady" loading="lazy" class="col-12">
+        </div>
+        <div class="row gy-5">
+            <div class="product-img col-md-6 col-12">
+
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="./images/maggie.png" style="width:100%" class="img-fluid img-thumbnail">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="./images/maggie-1.png" style="width:100%" class="img-fluid img-thumbnail">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="./images/maggie-b.png" style="width:100%" class="img-fluid img-thumbnail">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="./images/maggie-s.png" style="width:100%" class="img-fluid img-thumbnail">
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-3 ">
+                            <img class="demo cursor" src="./images/maggie.png" style="width:100%"
+                                onclick="currentSlide(1)" alt="The Woods" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="col-3 ">
+                            <img class="demo cursor" src="./images/maggie-1.png" style="width:100%"
+                                onclick="currentSlide(2)" alt="Cinque Terre" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="col-3 ">
+                            <img class="demo cursor" src="./images/maggie-b.png" style="width:100%"
+                                onclick="currentSlide(3)" alt="Mountains and fjords" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="col-3 ">
+                            <img class="demo cursor" src="./images/maggie-s.png" style="width:100%"
+                                onclick="currentSlide(4)" alt="Northern Lights" class="img-fluid img-thumbnail">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product-details col-md-6 col-12">
+                <button class="button2 p-2">25% OFF</button>
+                <h5 class="mt-5"><b> MAGGIE - ( SET OF 4 ) </b></h5>
+                <p class="text-muted"><b>4 Packets</b></p>
+                <p class="text-muted"> <small> Product MRP : <span style="text-decoration: line-through;"><i
+                                class="fa fa-inr"></i> 60</span> </small></p>
+                <p>Selling Price : &nbsp;<span style="font-size: 1.2rem;"> <b><i class="fa fa-inr"></i>48</b></span>
+                    <br> <span style="font-size: small;">(Inclusive of all taxes)</span></p>
+                <button class="button  p-2">Price for club members : <i class="fa fa-inr"></i>38</button>
+                <br>
+                <button class="button2 p-2 col-6 mt-5">ADD TO CART</button>
+            </div>
+        </div>
+
+
+<!-- product-detailst -->
+        <div class="row mt-5">
+            <div class="col-6">
+                <h5><b>Product Details </b></h5>
+                <p> <small>
+                        Picked from the finest wheat fields <br>
+                        100% whole wheat Atta <br>
+                        Get the super quality taste <br>
+                        Imparts a good aroma and a fluffy look <br>
+                        Also helps prevent weight gain
+                    </small>
+                </p>
+                <button class="button2 p-2 col-6 x"> VIEW MORE</button>
+            </div>
+            <div class="col-6">
+                <h5><b> Why shop from us? </b></h5>
+                <p style="color:#ADCA0A"><b>Easy returns & refunds</b></p>
+                <p><small>Return products at doorstep and get refund in seconds.</small></p>
+                <p style="color:#ADCA0A"><b>Lowest price guaranteed</b></p>
+                <p><small>Get difference refunded if you find it cheaper anywhere else.</small></p>
+            </div>
+        </div>
+
+
+<!-- Product Suggestion -->
+        <div class="row mt-5">
+            <div class="col-12 saver mb-5">
+                <h3>More like This</h3>
+                <button class="button p-2">See All</button>
+            </div>
+        </div>
+        <div class="row gy-3 gx-3 mb-5 product-container">
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-5.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>331 </b>
+                        <p class="text-muted"><small> 396</small></p>
+                    </h5>
+                    <p class="text-muted"><b>
+                            Aashirvaad Shudh Chakki Whole Wheat Atta + Salt Combo</b></p>
+                    <p class="text-muted"><small> 10KG + 1KG</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-6.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>254 </b>
+                        <p class="text-muted"><small> 369</small></p>
+                    </h5>
+                    <p class="text-muted"><b>
+                            Grofers Mother's Choice American Almonds + Nestle Milkmaid Condensed Milk (Can) Combo</b>
+                    </p>
+                    <p class="text-muted"><small> 200G + 440G</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-7.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>935 </b>
+                        <p class="text-muted"><small> 1045</small></p>
+                    </h5>
+                    <p class="text-muted"><b>
+                            Saffola Gold Pro Healthy Lifestyle Blended Cooking Oil (5l + 1l) + Grofers Mother's Choice
+                            Refined</b></p>
+                    <p class="text-muted"><small> 5L + 1L</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-8.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>238 </b>
+                        <p class="text-muted"><small> 295</small></p>
+                    </h5>
+                    <p class="text-muted"><b>
+                            Aashirvaad Select Whole Wheat Sharbati Atta</b></p>
+                    <p class="text-muted"><small> 5KG</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+        </div>
+ 
+<!-- product suggestions Fruits      -->
+        <div class="row">
+            <div class="col-12 saver mb-5">
+                <h3>Fruits & Veggies</h3>
+                <button class="button p-2">See All</button>
+            </div>
+        </div>
+        <div class="row gy-3 gx-3 mb-5 product-container">
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-9.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>78 </b></h5>
+                    <p class="text-muted"><b>
+                            Fresh Kiwi</b></p>
+                    <p class="text-muted"><small>3 Units</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-10.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>27 </b></h5>
+                    <p class="text-muted"><b>
+                            Fresh Tomato - Hybrid
+                        </b></p>
+                    <p class="text-muted"><small> 1KG</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-11.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>20 </b></h5>
+                    <p class="text-muted"><b>
+                            Fresh Potato
+                        </b></p>
+                    <p class="text-muted"><small>1KG</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+            <a href="./productdetail.html" class="col-lg-3 col-md-4 col-6 product p-4">
+                <img src="./images/p-12.png" class="img-fluid text-center" alt="product">
+                <div class="product-details mt-2">
+                    <h5 class="text-dark"><b><i class="fa fa-inr"></i>23 </b> </h5>
+                    <p class="text-muted"><b>
+                            Fresh Onion
+                        </b></p>
+                    <p class="text-muted"><small> 1KG</small></p>
+
+                    <button class="button2 p-2 col-12 mt-2">ADD TO CART </button>
+                </div>
+            </a>
+        </div>
+
+<!-- Best offer  -->
+        <div class="row">
+            <h1 class="" style="color: #ADCA0A"><b> Best offer on Products</b></h1>
+        </div>
+        <div class="row mt-5 gy-4 mb-5">
+            <div class="col-lg-3 col-6">
+                <a href=""><img src="./images/s-1.png" class="img-fluid img-thumbnail" alt="offers"></a>
+            </div>
+            <div class="col-lg-3 col-6">
+                <a href=""><img src="./images/s-2.png" class="img-fluid img-thumbnail" alt="offers"></a>
+            </div>
+            <div class="col-lg-3 col-6">
+                <a href=""><img src="./images/s-3.png" class="img-fluid img-thumbnail" alt="offers"></a>
+            </div>
+            <div class="col-lg-3 col-6">
+                <a href=""><img src="./images/s-4.png" class="img-fluid img-thumbnail" alt="offers"></a>
+            </div>
+        </div>
+
+<!-- Advertisement -->
+        <div class="row mb-5 ad">
+            <img src="./images/shop-2.png" alt="shopping-lady" loading="lazy" class=" img-fluid col-12">
+        </div>
+    </div>
+
+<!-- footer -->
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-12 social-media">
+                <p class="text-center"><b>CATCH US ON</b>
+                    <a href="#"> <i class="fa fa-instagram "></i></a>
+                    <a href="#"> <i class="fa fa-facebook"></i></a>
+                    <a href="#"> <i class="fa fa-twitter"></i></a> </p>
+            </div>
+        </div>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <h6><b>MEMBERSHIP</b></h6>
+
+                    <p class="mt-5"> <small><a href="./membership.html"> <b> JOIN THE CLUB</small></b></a></p>
+                    <p><a href="./benefits.html"> <small> <b> MEMBERSHIP BENEFITS</small></b></a></p>
+                    <p><a href="./unknown.html"> <small> <b> CLUB LOCATOR</small></b></a></p>
+                    <p><a href="./unknown.html"> <small> <b> BLOG</small></b></a></p>
+                    <p><a href="./unknown.html"> <small> <b> FAQs</small></b></a></p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <h6><b>SHOP</b></h6>
+
+                    <p class="mt-5"> <small><a href="./unknown.html"> <b> DOWNLOAD APP</small></b></a></p>
+                    <p><a href="./shoponline.html"> <small> <b> SHOP ONLINE</small></b></a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=919876543210&amp;text=Hi there! I have an Order :)">
+                            <small> <b> SHOP ON WHATSAPP</small></b></a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 ">
+                    <h6><b>OTHER LINKS</b></h6>
+
+                    <p class="mt-5"><a href="#"> <small> <b> ABOUT US</small></b></a></p>
+                    <p><a href="./unknown.html"> <small> <b> TESTIMONIALS</small></b></a></p>
+                    <p><a href="./unknown.html"> <small> <b> TERMS & CONDITION</small></b></a></p>
+                    <p><a href="./unknown.html"> <small> <b> PRIVACY POLICY</small></b></a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="row mb-3">
+                <div class="col-10 mx-auto calldetails">
+                    <div><a href="tel: 1800 1800 1800"><i class="fa fa-phone"> </i>&nbsp;&nbsp; 1800 1800 1800</a></div>
+                    <div><a href="mailto:care@easyshop.com"><i class="fa fa-envelope-o"></i> &nbsp;&nbsp;
+                            care@shopeasy.com</a></div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <p class="text-center col-10 mx-auto"><small><i class="fa fa-home"></i>&nbsp;&nbsp;ShopEasy
+                        Bizpark,
+                        A. B. Road,
+                        Indore-452001.
+                        Indore, Madhyapradesh</small></p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="text-center"><small> © 2021 SHOPEASY. ALL RIGHTS RESERVED. this template is designed by <span
+                        class="text-danger">Vijul Malviya</span> in <span class="text-primary">Clecotech
+                        International</span></small></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
